@@ -18,5 +18,6 @@ public class SpringDiApplication {
 
         MessageSender messageSender = (MessageSender) context.getBean("messageSender");
         messageSender.sendMessage();
+        messageSender.sendMessageFromProperty();
     }
 }

@@ -7,4 +7,9 @@ public class EmailService implements MessageService {
         System.out.println("Sending message");
     }
 
+    @Override
+    public void send(String message) {
+        System.out.println(message);
+    }
+
 }
